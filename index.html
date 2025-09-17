@@ -1,13 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Madhur's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 </head>
 <body>
-    <h1>Personal Website</h1>
-    <p>Welcome to my personal website!</p>
-    ffff
+
+  
+  <nav id="main-nav">
+    
+    <div class="nav-right">
+      <a href="#top-section">Home</a>
+      <a href="#about-section">About</a>
+      <a href="#skills-section">Skills</a>
+      <a href="#contact-section">Contact</a>
+    </div>
+  </nav>
+
+  
+  <section id="top-section">
+    <div id="name-line">
+      <h1>Madhur Tyagi</h1>
+      <p>Frontend Developer</p>
+    </div>
+  </section>
+
+  
+  <section id="about-section">
+    <h2>About Me</h2>
+    <p>I am a BTech student, a passionate developer studying at Ajay Kumar Garg Engineering College. I love building interactive and responsive web experiences and learning new technologies. Currently I am learning frontend frameworks and backend technologies.</p>
+  </section>
+
+ 
+  <section id="skills-section">
+    <h2>Skills</h2>
+    <div id="icons-area">
+      <div class="skill-item">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-js"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-item">
+        <i class="fa-brands fa-bootstrap"></i>
+        <span>Bootstrap</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="#" method="post">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-row">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-row">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="form-row">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  
+  <footer id="bottom-footer">
+    <div id="social-links">
+      <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p>© 2025 Madhur Tyagi. All rights reserved.</p>
+  </footer>
+
 </body>
-</html>         
+</html>
+
