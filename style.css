@@ -23,7 +23,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
-  background: rgba(20, 20, 20, 0.6);
+  background: rgba(20, 20, 20, 1);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
@@ -103,11 +103,17 @@ section {
   background: linear-gradient(135deg, #ff416c, #ff4b2b);
   color: #fff;
 }
+#about-section h2{
+  font-size: 2rem;
+}
 
 #skills-section {
   background: linear-gradient(135deg, #11998e, #38ef7d);
   color: #fff;
 }
+  #skills-section h2{
+    font-size: 2rem:
+  }
 
 #contact-section {
   background: linear-gradient(135deg, #654ea3, #eaafc8);
